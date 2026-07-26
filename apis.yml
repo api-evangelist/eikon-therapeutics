@@ -1,8 +1,16 @@
 aid: eikon-therapeutics
 name: Eikon Therapeutics
-description: 'Eikon Therapeutics is a company surfaced as a portfolio company of lux-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Eikon Therapeutics is a biopharmaceutical company (Nasdaq: EIKN) founded in 2019 and
+  headquartered in Millbrae, California, with additional offices in New York and Jersey City. Eikon
+  built a proprietary drug-discovery platform around single-molecule live-cell imaging, applying
+  super-resolution fluorescence microscopy and high-throughput single-molecule tracking to observe
+  how proteins and drug targets move and interact inside living cells in real time. The technology
+  descends from co-founder Eric Betzig''s Nobel Prize-winning work in super-resolution microscopy,
+  and the company is led by former Merck R&D chief Roger Perlmutter. Eikon uses these measurements to
+  discover and develop novel therapeutics across oncology and other disease areas. This profile was
+  surfaced as a portfolio company of Lux Capital and enriched by the API Evangelist pipeline; Eikon
+  publishes a corporate and investor web presence but no public developer API, SDK, or machine-readable
+  API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/eikon-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,33 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-ticker: EIKN
+x-hq: Millbrae, California, United States
+x-founded: '2019'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.eikontx.com/wp-content/uploads/2023/12/logo-eikon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Biotech
+- Biopharmaceutical
+- Drug Discovery
+- Live-Cell Imaging
+- Super-Resolution Microscopy
+- Oncology
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +52,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/eikon-therapeutics-domain-security.yml
 - type: Website
-  url: https://eikontx.com
+  url: https://www.eikontx.com
+- type: About
+  url: https://www.eikontx.com/about-us/
+- type: News
+  url: https://www.eikontx.com/news/
+- type: Careers
+  url: https://www.eikontx.com/careers/
+- type: Contact
+  url: https://www.eikontx.com/contact/
+- type: Investors
+  url: https://investors.eikontx.com/
+- type: PrivacyPolicy
+  url: https://www.eikontx.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/eikon-therapeutics-inc/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
