@@ -63,6 +63,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Platform
+  url: https://www.eikontx.com/platform/
+- type: Pipeline
+  url: https://www.eikontx.com/pipeline/
+- type: Blog
+  url: https://www.eikontx.com/news/
+- type: Support
+  url: https://www.eikontx.com/contact/
 - type: DomainSecurity
   url: security/eikon-therapeutics-domain-security.yml
 - type: Website
@@ -86,5 +94,3 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
-x-parent: eikon
-x-relationship: product
